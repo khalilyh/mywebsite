@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>YAHYAOUI KHALIL</h1>
+      <nav>
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>About Us</h2>
+        <p>We are a company that specializes in providing high-quality services to our customers. With years of experience and a team of experts</p>
+      </section>
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>Service 1</li>
+          <li>Service 2</li>
+          <li>Service 3</li>
+        </ul>
+      </section>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br>
+        
+        <button type="submit">Submit</button>
+      </form>
+      <section>
+        <h2>Featured Products</h2>
+        <div class="product">
+          <img src="https://via.placeholder.com/200x200" alt="Product Image">
+          <h3>Product Name</h3>
+          <p>cote</p>
+          <a href="#" class="button">View Details</a>
+        </div>
+        
+        <div class="product">
+          <img src="https://via.placeholder.com/200x200" alt="Product Image">
+          <h3>Product Name</h3>
+          <p>grillade</p>
+          <a href="#" class="button">View Details</a>
+        </div>
+        
+        <div class="product">
+          <img src="https://via.placeholder.com/200x200" alt="Product Image">
+          <h3>Product Name</h3>
+          <p>fruit</p>
+          <a href="#" class="button">View Details</a>
+        </div>
+      </section>
+      <section>
+        <h2>Our Menu</h2>
+        
+        <div class="menu">
+          <h3>Starters</h3>
+          <ul>
+            <li>
+              <h4>Garlic Bread</h4>
+              <p>Classic garlic bread with butter and garlic.</p>
+              <span>$5</span>
+            </li>
+            <li>
+              <h4>Bruschetta</h4>
+              <p>Grilled bread topped with diced tomatoes, garlic, and basil.</p>
+              <span>$7</span>
+            </li>
+            <li>
+              <h4>Mozzarella Sticks</h4>
+              <p>Breaded mozzarella sticks served with marinara sauce.</p>
+              <span>$8</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="menu">
+          <h3>Entrees</h3>
+          <ul>
+            <li>
+              <h4>Spaghetti Bolognese</h4>
+              <p>Spaghetti served with our homemade bolognese sauce.</p>
+              <span>$12</span>
+            </li>
+            <li>
+              <h4>Chicken Parmesan</h4>
+              <p>Breaded chicken breast topped with marinara sauce and mozzarella cheese served over spaghetti.</p>
+              <span>$15</span>
+            </li>
+            <li>
+              <h4>Pizza</h4>
+              <p>Choose from our selection of pizzas including pepperoni, cheese, and vegetarian.</p>
+              <span>Starting at $10</span>
+            </li>
+          </ul>
+        </div>
+        
+        <div class="menu">
+          <h3>Desserts</h3>
+          <ul>
+            <li>
+              <h4>Tiramisu</h4>
+              <p>Classic Italian dessert made with ladyfingers, mascarpone cheese, and espresso.</p>
+              <span>$8</span>
+            </li>
+            <li>
+              <h4>Cannoli</h4>
+              <p>Pastry filled with sweetened ricotta cheese and chocolate chips.</p>
+              <span>$6</span>
+            </li>
+            <li>
+              <h4>Gelato</h4>
+              <p>Italian ice cream available in various flavors.</p>
+              <span>$5</span>
+            </li>
+          </ul>
+        </div>
+        
+      </section>
+      <form>
+        <h2>Commande et livraison</h2>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"><br><br>
+        
+        <label for="adresse">Adresse :</label>
+        <input type="text" id="adresse" name="adresse"><br><br>
+        
+        <label for="ville">Ville :</label>
+        <input type="text" id="ville" name="ville"><br><br>
+        
+        <label for="codepostal">Code postal :</label>
+        <input type="text" id="codepostal" name="codepostal"><br><br>
+        
+        <label for="instructions">Instructions de livraison :</label>
+        <textarea id="instructions" name="instructions"></textarea><br><br>
+        
+        <input type="submit" value="Commander">
+      </form>
+      <div>
+        <h2>Menu de restaurant</h2>
+        <p>Voici notre menu :</p>
+        <ul>
+          <li>Pizza margherita</li>
+          <li>Pâtes bolognaise</li>
+          <li>Burger classique</li>
+          <li>Sandwich club</li>
+        </ul>
+        <p>Scannez le code QR ci-dessous pour voir notre menu complet :</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://votre-site-web.com/menu">
+      </div>
+      <form method="post" action="chat-handler.php">
+        <label for="user-input">Type your message:</label>
+        <input type="text" id="user-input" name="user-input" />
+        <button type="submit">Send</button>
+        <br>
+        <textarea id="chat-messages" readonly></textarea>
+      </form>
+      
+      
+      
+
+      
+    </main>
+    <footer>
+      <p>&copy;  My Website. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
